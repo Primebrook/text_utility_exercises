@@ -73,3 +73,18 @@ The input data for all exercises is stored in `data.txt`.
 
 **Solution**: ``
 
+## 9. Append a Line After a Matching Line
+
+**Task**: Insert a lint with "----" before each line that contains "David".
+
+**Expected Output**: see `expected_output/9.txt` 
+
+**Solution**: ``
+
+## 10. Replace Text on Specific Lines
+
+**Task**: Replace "Bob" with "Robert" only on line 2.
+
+**Expected Output**: see `expected_output/10.txt` 
+
+**Solution**: ``
