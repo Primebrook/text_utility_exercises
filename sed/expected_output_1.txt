@@ -1,0 +1,7 @@
+1. Alicia,30,New York
+2. Bob,25,Los Angeles
+3. Carol,22,Chicago
+4. David,35,Houston
+5. Eve,28,San Francisco
+6. frank,32,seattle
+7. george,40,Boston
