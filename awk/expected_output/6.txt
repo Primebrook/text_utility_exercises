@@ -1,0 +1,4 @@
+Engineering: 74000
+Marketing: 63500
+HR: 65000
+Finance: 70000
