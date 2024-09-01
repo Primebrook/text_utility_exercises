@@ -1,0 +1,3 @@
+BEGIN { total_salary = 0 }
+{ total_salary=$5+total_salary } 
+END { printf "Total Salary: %s\n", total_salary }
