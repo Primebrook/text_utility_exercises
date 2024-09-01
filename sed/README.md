@@ -1,4 +1,4 @@
-The input data for all exercises is stored in `sample.txt`.
+The input data for all exercises is stored in `data.txt`.
 
 # Exercises
 
@@ -8,7 +8,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/1.txt`
 
-**Solution**: `sed 's/Alice/Alicia/g' sample.txt`
+**Solution**: `sed 's/Alice/Alicia/g' data.txt`
 
 
 ## 2. Global Substitution
@@ -17,7 +17,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/2.txt` 
 
-**Solution**: `sed 's/,/;/g' sample.txt`
+**Solution**: `sed 's/,/;/g' data.txt`
 
 
 ## 3. Case-insensitive Substitution 
@@ -26,7 +26,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/3.txt`
 
-**Solution**: `sed 's/frank/Frank/ig' sample.txt`
+**Solution**: `sed 's/frank/Frank/ig' data.txt`
 
 
 ## 4. Replace Only the First Occurrence on Each Line
@@ -35,7 +35,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/4.txt` 
 
-**Solution**: `sed 's/,/ /' sample.txt`
+**Solution**: `sed 's/,/ /' data.txt`
 
 
 ## 5. Replace Only the Second Occurrence on Each Line 
@@ -44,7 +44,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/5.txt` 
 
-**Solution**: `sed 's/,/ /2' sample.txt`
+**Solution**: `sed 's/,/ /2' data.txt`
 
 
 ## 6. Print Only Lines Where a Substitution Occurred
@@ -53,7 +53,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/6.txt` 
 
-**Solution**: `sed -n 's/seattle/Seattle/p' sample.txt`
+**Solution**: `sed -n 's/seattle/Seattle/p' data.txt`
 
 
 ## 7. Delete Lines Matching a Pattern
@@ -62,7 +62,7 @@ The input data for all exercises is stored in `sample.txt`.
 
 **Expected Output**: see `expected_output/7.txt` 
 
-**Solution**: `sed '/george/d' sample.txt`
+**Solution**: `sed '/george/d' data.txt`
 
 
 ## 8. Insert a Line Before a Matching Line
